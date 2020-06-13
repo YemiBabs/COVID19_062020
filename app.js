@@ -29,7 +29,8 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', indexRouter);
 app.use('/index.html', indexRouter);
-app.use('/donate.html', donateRouter);
+//app.use('/donate.html', donateRouter);
+app.use('/donation.html', donateRouter);
 
 //app.use('/users', usersRouter);
 
