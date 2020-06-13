@@ -6,9 +6,11 @@ var logger = require('morgan');
 
 
 var indexRouter = require('./routes/index');
-//var donateRouter = require('./routes/donate');  //disabled for checkout test
 var donateRouter = require('./routes/donation');
+var successRouter = require('./routes/success');
+var canceledRouter = require('./routes/canceled');
 //var usersRouter = require('./routes/users');
+
 
 
 var app = express();
@@ -29,8 +31,9 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', indexRouter);
 app.use('/index.html', indexRouter);
-//app.use('/donate.html', donateRouter);
 app.use('/donation.html', donateRouter);
+app.use('/success.html', successRouter);
+app.use('/canceled.html', canceledRouter);
 
 //app.use('/users', usersRouter);
 
