@@ -88,8 +88,8 @@
                     // a successful payment.
                     // Instead use one of the strategies described in
                     // https://stripe.com/docs/payments/checkout/fulfillment
-                    successUrl: 'https://your-website.com/success',
-                    cancelUrl: 'https://your-website.com/canceled',
+                    successUrl: '/success',
+                    cancelUrl: '/canceled',
                 })
                     .then(function (result) {
                         if (result.error) {
