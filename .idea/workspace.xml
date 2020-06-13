@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="108a312b-424d-49e4-adb1-07dee7e7c8a6" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML4 File" />
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="Development" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="MIXED" />
+    <option name="ROOT_SYNC" value="SYNC" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="C:\Users\babajba\Documents\Deakin\test\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1ctSMPPt3W7yINki9qnAQIGmk3N" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\babajba\Documents\Deakin\test\routes" />
+      <recent name="C:\Users\babajba\Documents\Deakin\test" />
+      <recent name="C:\Users\babajba\Documents\Deakin\test\views" />
+      <recent name="C:\Users\babajba\Documents\Deakin\test\public" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="108a312b-424d-49e4-adb1-07dee7e7c8a6" name="Default Changelist" comment="" />
+      <created>1591346348005</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1591346348005</updated>
+      <workItem from="1591346349428" duration="37619000" />
+      <workItem from="1591541723043" duration="15534000" />
+      <workItem from="1591857054934" duration="3857000" />
+      <workItem from="1591923585439" duration="4834000" />
+      <workItem from="1591933786546" duration="417000" />
+      <workItem from="1591934219649" duration="131000" />
+      <workItem from="1591934387787" duration="296000" />
+      <workItem from="1591934699815" duration="247000" />
+      <workItem from="1591935121409" duration="3703000" />
+      <workItem from="1592020902015" duration="5442000" />
+    </task>
+    <task id="LOCAL-00001" summary="Manifest commit">
+      <created>1592018224221</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1592018224221</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Checkout commit">
+      <created>1592021436943</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1592021436943</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Checkout commit">
+      <created>1592022595056</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1592022595056</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Checkout commit">
+      <created>1592022640014</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1592022640014</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Checkout commit">
+      <created>1592022819942</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1592022819942</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Checkout commit">
+      <created>1592022847870</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1592022847870</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Checkout commit">
+      <created>1592024090020</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1592024090020</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Donation changes">
+      <created>1592024438287</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1592024438287</updated>
+    </task>
+    <task id="LOCAL-00009" summary="GIT changes">
+      <created>1592025918244</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1592025918244</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="HEAD" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+    <MESSAGE value="Manifest commit" />
+    <MESSAGE value="Checkout commit" />
+    <MESSAGE value="Donation changes" />
+    <MESSAGE value="GIT changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="GIT changes" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="361" y="71" key="#Deployment" timestamp="1591934587996">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="71" key="#Deployment/0.0.1536.824@0.0.1536.824" timestamp="1591934587996" />
+    <state x="361" y="71" key="#Notifications" timestamp="1592024554544">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="71" key="#Notifications/0.0.1536.824@0.0.1536.824" timestamp="1592024554544" />
+    <state x="2410" y="11" key="CommitChangelistDialog2" timestamp="1592026514285">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2410" y="11" key="CommitChangelistDialog2/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1592026514285" />
+    <state x="392" y="9" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1592025916950" />
+    <state width="374" height="442" key="Diff.GoToChangePopup" timestamp="1592026085607">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="374" height="442" key="Diff.GoToChangePopup/0.0.1536.824@0.0.1536.824" timestamp="1592026085607" />
+    <state x="93" y="93" width="1350" height="638" key="DiffContextDialog" timestamp="1592026497921">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="93" y="93" width="1350" height="638" key="DiffContextDialog/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1592026497921" />
+    <state x="93" y="93" width="1350" height="638" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1592026141396" />
+    <state x="549" y="154" key="FileChooserDialogImpl" timestamp="1591935159183">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="154" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1591935159183" />
+    <state x="639" y="306" key="Github.ShareDialog" timestamp="1591935194738">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="639" y="306" key="Github.ShareDialog/0.0.1536.824@0.0.1536.824" timestamp="1591935194738" />
+    <state x="535" y="118" key="Github.UntrackedFilesDialog" timestamp="1591935205805">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="535" y="118" key="Github.UntrackedFilesDialog/0.0.1536.824@0.0.1536.824" timestamp="1591935205805" />
+    <state x="734" y="131" key="MultipleFileMergeDialog" timestamp="1592025977871">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="734" y="131" key="MultipleFileMergeDialog/0.0.1536.824@0.0.1536.824" timestamp="1592025977871" />
+    <state x="277" y="55" key="SettingsEditor" timestamp="1591934712822">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="277" y="55" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1591934712822" />
+    <state x="526" y="117" key="VCS.ChangeListViewerDialog" timestamp="1592024599341">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="526" y="117" key="VCS.ChangeListViewerDialog/0.0.1536.824@0.0.1536.824" timestamp="1592024599341" />
+    <state x="618" y="328" key="VCS.ChangelistChooser" timestamp="1592024045540">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="618" y="328" key="VCS.ChangelistChooser/0.0.1536.824@0.0.1536.824" timestamp="1592024045540" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1592025942183">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1592025942183" />
+    <state x="463" y="10" width="609" height="804" key="find.popup" timestamp="1591508768351">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="463" y="10" width="609" height="804" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1591508768351" />
+    <state x="2635" y="311" key="git4idea.merge.GitMergeDialog" timestamp="1592026332107">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2635" y="311" key="git4idea.merge.GitMergeDialog/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1592026332107" />
+    <state x="415" y="260" key="git4idea.ui.GitUnstashDialog" timestamp="1592024613987">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="415" y="260" key="git4idea.ui.GitUnstashDialog/0.0.1536.824@0.0.1536.824" timestamp="1592024613987" />
+  </component>
+</project>
