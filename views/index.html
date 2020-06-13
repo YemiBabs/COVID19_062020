@@ -24,7 +24,7 @@
             <ul id="menu">
                 <!-- put class="selected" in the li tag for the selected page - to highlight which page you're on -->
                 <li class="selected"><a href="index.html">Home</a></li>
-                <li><a href="donation.html">Donate</a></li>
+                <li><a href="donation.html" target="popup"  onclick="window.open('donation.html','popup','width=600,height=600'); return false;">Donate</a></li>
                 <li><a href="page.html">2nd page</a></li>
                 <li><a href="another_page.html">3rd Page</a></li>
                 <li><a href="contact.html">4th page</a></li>
@@ -49,14 +49,8 @@
             <div class="sidebar">
                 <div class="sidebar_top"></div>
                 <h3>Would you like to support?</h3>
-                <div> <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-                    <input type="hidden" name="cmd" value="_donations" />
-                    <input type="hidden" name="business" value="EFPH9GVA47RK2" />
-                    <input type="hidden" name="item_name" value="COVID-19 Donation" />
-                    <input type="hidden" name="currency_code" value="AUD" />
-                    <input type="image" src="https://www.paypalobjects.com/en_AU/i/btn/btn_donateCC_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
-                    <img alt="" border="0" src="https://www.paypal.com/en_AU/i/scr/pixel.gif" width="1" height="1" />
-                </form>
+                <a href="donation.html">Donate</a>
+                <div>
                 </div>
                 <div class="sidebar_item">
                     <br/>
