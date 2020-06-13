@@ -6,7 +6,7 @@ var logger = require('morgan');
 
 
 var indexRouter = require('./routes/index');
-//var donateRouter = require('./routes/donate');
+//var donateRouter = require('./routes/donate');  //disabled for checkout test
 var donateRouter = require('./routes/donation');
 //var usersRouter = require('./routes/users');
 
