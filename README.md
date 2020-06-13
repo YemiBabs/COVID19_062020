@@ -1,1 +1,1 @@
-# COVID19_062020
+# SIT737 COVID19 Web App Project
