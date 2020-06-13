@@ -2,8 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="108a312b-424d-49e4-adb1-07dee7e7c8a6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/routes/canceled.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/routes/success.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/stylesheets/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/stylesheets/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/canceled.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/canceled.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/donation.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/donation.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/success.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/success.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,8 +21,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML4 File" />
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -93,7 +100,7 @@
       <workItem from="1591934387787" duration="296000" />
       <workItem from="1591934699815" duration="247000" />
       <workItem from="1591935121409" duration="3703000" />
-      <workItem from="1592020902015" duration="8220000" />
+      <workItem from="1592020902015" duration="24671000" />
     </task>
     <task id="LOCAL-00001" summary="Manifest commit">
       <created>1592018224221</created>
@@ -186,7 +193,56 @@
       <option name="project" value="LOCAL" />
       <updated>1592028141904</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="GIT changes">
+      <created>1592029818594</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1592029818594</updated>
+    </task>
+    <task id="LOCAL-00015" summary="GIT changes">
+      <created>1592029864850</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1592029864850</updated>
+    </task>
+    <task id="LOCAL-00016" summary="GIT changes">
+      <created>1592030946886</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1592030946886</updated>
+    </task>
+    <task id="LOCAL-00017" summary="GIT changes">
+      <created>1592030994394</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1592030994394</updated>
+    </task>
+    <task id="LOCAL-00018" summary="GIT changes">
+      <created>1592031798979</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1592031798979</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Checkout implemented - stage 1">
+      <created>1592034193262</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1592034193262</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Checkout implemented - stage 1">
+      <created>1592035425089</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1592035425089</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -239,7 +295,8 @@
     <MESSAGE value="Checkout commit" />
     <MESSAGE value="Donation changes" />
     <MESSAGE value="GIT changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="GIT changes" />
+    <MESSAGE value="Checkout implemented - stage 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Checkout implemented - stage 1" />
   </component>
   <component name="WindowStateProjectService">
     <state x="361" y="71" key="#Deployment" timestamp="1591934587996">
@@ -250,10 +307,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="361" y="71" key="#Notifications/0.0.1536.824@0.0.1536.824" timestamp="1592024554544" />
-    <state x="2410" y="11" key="CommitChangelistDialog2" timestamp="1592029817120">
+    <state x="2410" y="11" key="CommitChangelistDialog2" timestamp="1592035423805">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2410" y="11" key="CommitChangelistDialog2/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1592029817120" />
+    <state x="2410" y="11" key="CommitChangelistDialog2/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1592035423805" />
     <state x="392" y="9" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1592025916950" />
     <state width="374" height="442" key="Diff.GoToChangePopup" timestamp="1592026085607">
       <screen x="0" y="0" width="1536" height="824" />
@@ -294,11 +351,15 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="618" y="328" key="VCS.ChangelistChooser/0.0.1536.824@0.0.1536.824" timestamp="1592024045540" />
-    <state x="2371" y="183" key="Vcs.Push.Dialog.v2" timestamp="1592029390677">
+    <state x="2371" y="183" key="Vcs.Push.Dialog.v2" timestamp="1592035438317">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2371" y="183" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1592029390677" />
+    <state x="2371" y="183" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1592035438317" />
     <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1592025942183" />
+    <state x="406" y="27" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1592048225540">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="406" y="27" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1536.824@0.0.1536.824" timestamp="1592048225540" />
     <state x="463" y="10" width="609" height="804" key="find.popup" timestamp="1591508768351">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
