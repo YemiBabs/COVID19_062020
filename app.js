@@ -12,7 +12,10 @@ var successRouter = require('./routes/success');
 var canceledRouter = require('./routes/canceled');
 //var usersRouter = require('./routes/users');
 
-
+//api-exposed
+var facts = require('covid-facts');
+var allFacts = facts.all;
+var randomFact = facts.random();
 
 var app = express();
 app.use(express.static('public'));
@@ -38,6 +41,10 @@ app.use('/canceled.html', canceledRouter);
 
 //app.use('/users', usersRouter);
 
+//api-exposed
+app.get('/exposed-api', (req,res) => {
+  res.send(allFacts);
+});
 
 
 // catch 404 and forward to error handler
