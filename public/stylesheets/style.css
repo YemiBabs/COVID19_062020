@@ -303,7 +303,7 @@ ul#menu li a:hover
   background: #FFF;
   color: #47433F;}
 
-.form_settings .submit
+.form_settings .submit, .form_settings .search
 { font: 100% arial;
   border: 0;
   width: 99px;
