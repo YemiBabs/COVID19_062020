@@ -3,6 +3,7 @@ var express = require('express');
 var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
+var nodemailer = require("nodemailer");
 
 
 
@@ -10,6 +11,7 @@ var indexRouter = require('./routes/index');
 var donateRouter = require('./routes/donation');
 var successRouter = require('./routes/success');
 var canceledRouter = require('./routes/canceled');
+var contactRouter = require('./routes/contact');
 //var usersRouter = require('./routes/users');
 
 //api-exposed
@@ -38,6 +40,8 @@ app.use('/index.html', indexRouter);
 app.use('/donation.html', donateRouter);
 app.use('/success.html', successRouter);
 app.use('/canceled.html', canceledRouter);
+app.use('/contact.html', contactRouter);
+
 
 //app.use('/users', usersRouter);
 
@@ -45,6 +49,40 @@ app.use('/canceled.html', canceledRouter);
 app.get('/exposed-api', (req,res) => {
   res.send(allFacts);
 });
+
+/**
+ * Create SMTP server.
+ */
+
+var smtpTransport = nodemailer.createTransport({
+  service: "gmail",
+
+  auth: {
+    user: "covid19.restoration@gmail.com",
+    pass: "Covid12345"
+  }
+});
+
+app.get('/send',function(req,res){
+  var mailOptions={
+    from: 'covid19.restoration@gmail.com',
+    to : req.query.to,
+    subject : req.query.subject,
+    textmessage : req.query.textmessage,
+  }
+  console.log(mailOptions);
+  smtpTransport.sendMail(mailOptions, function(error, response){
+    if(error){
+      console.log(error);
+      res.end("error");
+    }else{
+      console.log("Message sent: " + response.message);
+      res.end("sent");
+    }
+  });
+});
+
+
 
 
 // catch 404 and forward to error handler
