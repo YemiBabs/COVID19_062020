@@ -46,6 +46,10 @@ app.get('/exposed-api', (req,res) => {
   res.send(allFacts);
 });
 
+app.get('/covid19_random_fact_api', (req,res) => {
+  res.send(randomFact);
+});
+
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
