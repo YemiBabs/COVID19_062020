@@ -3,7 +3,7 @@ var express = require('express');
 var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
-//var nodemailer = require("nodemailer");
+var nodemailer = require('nodemailer');
 
 
 
@@ -56,12 +56,11 @@ app.get('/covid19_random_fact_api', (req,res) => {
 // SMTP for email
 
 
-/**
- * Create SMTP server.
- */
-/*
 
-var smtpTransport = nodemailer.createTransport({
+ 
+
+
+var transporter = nodemailer.createTransport({
   service: "gmail",
 
   auth: {
@@ -70,26 +69,29 @@ var smtpTransport = nodemailer.createTransport({
   }
 });
 
+app.get('/',function(req,res){
+  res.sendfile('email.html');
+})
+
 app.get('/send',function(req,res){
-  var mailOptions={
-    from: 'covid19.restoration@gmail.com',
+  var mailOptions= {
+    //from: 'covid19.restoration@gmail.com',
     to : req.query.to,
     subject : req.query.subject,
-    textmessage : req.query.textmessage,
+    text: req.query.textmessage
   }
-  console.log(mailOptions);
-  smtpTransport.sendMail(mailOptions, function(error, response){
-    if(error){
-      console.log(error);
-      res.end("error");
-    }else{
-      console.log("Message sent: " + response.message);
-      res.end("sent");
-    }
+  //console.log(mailOptions);
+  
+  transporter.sendMail(mailOptions)
+    .then(function(response) {
+      console.log('Email Sent !!!!');
+  })
+  .catch(function(error) {
+      console.log('Error!!_!!');
   });
 });
 
-*/
+
 
 
 
