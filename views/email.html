@@ -9,17 +9,16 @@
   <link rel="stylesheet" type="text/css" href="/stylesheets/style.css" />
 
 
-<!--
+
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
   <script>
     $(document).ready(function(){
       var from,to,subject,textmessage;
       $("#submit").click(function(){
-        from=$("#from").val();
+        //from=$("#from").val();
         to=$("#to").val();
         subject=$("#subject").val();
-        textmessage=$("#textmessage").val();
-
+        textmessage= $("#textmessage").val();
         $("#message").text("Sending E-mail...Please wait");
         $.get("/send",{to:to,subject:subject,textmessage:textmessage},function(data){
           if(data=="sent")
@@ -99,7 +98,7 @@
       <div class="form_settings">
         <p><span>To</span><input id="to" class="contact" type="text" name="your_name" value="" /></p>
         <p><span>Subject</span><input id="subject" class="contact" type="text" name="subject" value="" /></p>
-        <p><span>Message</span><textarea id="textmessage" class="contact textarea" rows="8" cols="50" name="textmessage"></textarea></p>
+        <p><span>TextMessage</span><textarea id="textmessage" class="contact" rows="8" cols="50" name="textmessage"></textarea></p>
         <p style="padding-top: 15px"><span>&nbsp;</span><input id="submit" class="submit" type="submit" name="submit" value="submit" /></p><span id="message"></span>
       </div>
       <p><br /><br /></p>
