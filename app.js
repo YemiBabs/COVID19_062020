@@ -11,7 +11,7 @@ var indexRouter = require('./routes/index');
 var donateRouter = require('./routes/donation');
 var successRouter = require('./routes/success');
 var canceledRouter = require('./routes/canceled');
-var contactRouter = require('./routes/contact');
+var contactRouter = require('./routes/email');
 //var usersRouter = require('./routes/users');
 
 //api-exposed
@@ -40,7 +40,7 @@ app.use('/index.html', indexRouter);
 app.use('/donation.html', donateRouter);
 app.use('/success.html', successRouter);
 app.use('/canceled.html', canceledRouter);
-app.use('/contact.html', contactRouter);
+app.use('/email.html', contactRouter);
 
 //app.use('/users', usersRouter);
 
