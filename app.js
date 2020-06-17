@@ -45,7 +45,7 @@ app.use('/email.html', sendemailRouter);
 //app.use('/users', usersRouter);
 
 //api-exposed
-app.get('/exposed-api', (req,res) => {
+app.get('/Covid_All_facts_API', (req,res) => {
   res.send(allFacts);
 });
 
