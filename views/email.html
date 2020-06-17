@@ -19,7 +19,7 @@
         to=$("#to").val();
         subject=$("#subject").val();
         textmessage= $("#textmessage").val();
-        $("#message").text("Sending E-mail...Please wait");
+        $("#message").text("Email Sent");
         $.get("/send",{to:to,subject:subject,textmessage:textmessage},function(data){
           if(data=="sent")
           {
